@@ -1,0 +1,54 @@
+/*
+ * Base
+ */
+
+body {
+  background-color: #F7DA00;
+  background-attachment: fixed;
+  background-image: url('../img/polygon.svg');
+  background-position: 25% 50%;
+  background-repeat: repeat-y;
+  background-size: 40rem auto;
+  color: #393E41;
+  font-family: 'Poppins', sans-serif;
+}
+
+a, a:hover {
+  color: #AC7D3B;
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+.h1, h1 {
+  font-size: calc(1rem + 1.5vw);
+}
+
+strong {
+  font-weight: 600;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.lead {
+  font-size: 2rem;
+}
+
+@media (max-width: 425px) {
+  .lead {
+    font-size: 1.25rem;
+  } 
+}
